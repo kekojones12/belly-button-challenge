@@ -49,6 +49,14 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="./static/js/app.js"></script>
   <script src="./static/js/bonus.js"></script>
+  <script>
+    // Load JSON data from the specified URL
+    d3.json("https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json")
+        .then(function(data) {
+            // Once data is loaded, you can perform further operations
+            console.log(data); 
+        });
+</script>
 
 </body>
 
